@@ -1,0 +1,125 @@
+梵高线上博物馆 · 图像来源解析报告
+============================================================
+生成时间：2026-10-06 13:28:40
+总计 93 幅作品：已解决 93，未解决 0（目标 ≥85%）
+
+【Met 官方图源】
+  p2-self-straw-hat  objectID 436532  502x625  Met 官方图源（objectID 436532）
+  p3-oleanders  objectID 436530  599x492  Met 官方图源（objectID 436530）
+  p4-wf-cypresses  objectID 436535  599x477  Met 官方图源（objectID 436535）
+  p4-cypresses  objectID 437980  495x624  Met 官方图源（objectID 437980）
+  p4-olive-trees  objectID 437998  599x478  Met 官方图源（objectID 437998）
+  p4-first-steps  objectID 436526  599x475  Met 官方图源（objectID 436526）
+
+【已解决 · Commons】
+  p1-cabbage-clogs           [330x205] Still Life with Cabbage and Clogs.jpg
+  p1-congregation            [330x435] Van_Gogh_-_Die_Kirche_von_Nuenen_mit_Kirchgängern.jpeg
+  p1-parsonage-garden        [330x139] Van_Gogh_-_The_Parsonage_Garden_at_Nuenen.jpg
+  p1-weaver                  [330x243] Vincent_van_Gogh_-_Weaver_-_Google_Art_Project.jpg
+  p1-watermill               [330x189] Vincent_van_Gogh_-_Watermolen_in_Gennep.jpg
+  p1-old-tower               [330x268] De_oude_kerktoren_te_Nuenen_(`Het_boerenkerkhof')_-_s0002V1962_-_Van_Gogh_Museum.jpg
+  p1-lane-poplars            [330x262] Vincent_van_Gogh_-_Poplars_near_Nuenen_-_Google_Art_Project.jpg
+  p1-potato-eaters           [330x233] Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg
+  p1-bible                   [330x273] Stilleven_met_bijbel_-_s0008V1962_-_Van_Gogh_Museum.jpg
+  p2-moulin-galette          [330x406] Vincent van Gogh - Le Moulin de la Galette - Google Art Project.jpg
+  p2-agostina                [330x414] Portret_van_Agostina_Segatori_-_s0093V1962_-_Van_Gogh_Museum.jpg
+  p2-boulevard-clichy        [330x273] Vincent van Gogh - Boulevard de Clichy - Google Art Project.jpg
+  p2-self-grey-felt          [330x401] Zelfportret_met_grijze_vilthoed_-_s0016V1962_-_Van_Gogh_Museum.jpg
+  p2-self-aic              （版本存疑）  [330x453] Self-Portrait.jpg
+  p2-self-orsay-87         （版本存疑）  [330x401] Vincent van Gogh - Self-Portrait - Google Art Project.jpg
+  p2-tanguy                （版本存疑）  [330x440] Van_Gogh_-_Bildnis_Père_Tanguy.jpeg
+  p2-skull                   [330x438] Kop_van_een_skelet_met_brandende_sigaret_-_s0083V1962_-_Van_Gogh_Museum.jpg
+  p2-apples-pears            [330x244] Vincent_van_Gogh_-_Kweeperen,_citroenen,_peren_en_druiven_-_Google_Art_Project.jpg
+  p2-red-cabbage             [330x256] Rode_kolen_en_uien_-_s0082V1962_-_Van_Gogh_Museum.jpg
+  p2-lark                    [330x270] Van_Gogh_-_Getreidefeld_mit_Mohnblumen_und_Lerche.jpeg
+  p2-plum-orchard            [330x392] Vincent_van_Gogh_-_Bloeiende_pruimenboomgaard-_naar_Hiroshige_-_Google_Art_Project.jpg
+  p2-bridge-rain             [330x446] Vincent_van_Gogh_-_Brug_in_de_regen-_naar_Hiroshige_-_Google_Art_Project.jpg
+  p2-courtesan               [330x551] Vincent_van_Gogh_-_Courtesan-_after_Eisen_-_Google_Art_Project.jpg
+  p3-sunflowers-london     （版本存疑）  [330x204] Sunflowers.jpg
+  p3-sunflowers-munich     （版本存疑）  [330x401] Vase with Twelve Sunflowers.jpg
+  p3-sunflowers-amsterdam  （版本存疑）  [330x433] Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg
+  p3-night-cafe              [330x261] Le_café_de_nuit_(The_Night_Café)_by_Vincent_van_Gogh.jpeg
+  p3-cafe-terrace            [330x433] Vincent_van_Gogh_-_Cafe_Terrace_at_Night_(1888).jpg
+  p3-yellow-house            [330x254] The Yellow House.jpg
+  p3-bedroom               （版本存疑）  [330x262] Vincent van Gogh - De slaapkamer - Google Art Project.jpg
+  p3-rhone                   [330x256] Starry Night Over the Rhone.jpg
+  p3-bandaged-ear            [330x406] Vincent van Gogh - Self-Portrait with Bandaged Ear.jpg
+  p3-boch                    [330x454] Vincent_van_Gogh_-_Eugène_Boch_-_Google_Art_Project.jpg
+  p3-ginoux                （版本存疑）  [330x437] Van Gogh - L'Arlésienne.jpg
+  p3-roulin                  [330x440] Portrait of the Postman Joseph Roulin.jpg
+  p3-berceuse                [330x393] La Berceuse.jpg
+  p3-zouave                  [330x394] Vincent van Gogh - The Zouave - Google Art Project.jpg
+  p3-sower                 （版本存疑）  [330x262] The Sower.jpg
+  p3-harvest                 [330x261] Vincent van Gogh - De oogst - Google Art Project.jpg
+  p3-farmhouse               [330x253] Farmhouse in Provence.jpg
+  p3-poet-garden             [330x262] Vincent_van_Gogh_-_The_Poet's_Garden_-_1933.433_-_Art_Institute_of_Chicago.jpg
+  p3-peach-trees             [329x482] Pink Peach Trees.jpg
+  p3-white-orchard           [330x243] Vincent_van_Gogh_-_The_white_orchard_-_Google_Art_Project.jpg
+  p3-orchard-cypresses       [330x267] Vincent_van_Gogh_-_Orchard_Bordered_by_Cypresse_-_ILE2017.12.1_-_Yale_University_Art_Gallery.jpg
+  p3-langlois                [330x269] Vincent_Willem_van_Gogh_-_Pont_de_Langlois_-_Kröller-Müller.jpg
+  p3-red-vineyard            [330x257] Red_vineyards.jpg
+  p3-etten-garden            [330x259] Vincent_Willem_van_Gogh_098.jpg
+  p3-dance-hall              [330x265] Vincent van Gogh - The Dance Hall in Arles - Google Art Project.jpg
+  p3-vangogh-chair           [330x429] Van Gogh's Chair.jpg
+  p3-gauguin-chair           [330x412] Vincent_van_Gogh_-_De_stoel_van_Gauguin_-_Google_Art_Project.jpg
+  p3-snow                    [330x268] Van_Gogh_-_Landschaft_im_Schnee.jpg
+  p3-fishing-boats           [330x263] Vissersboten_op_het_strand_van_Les_Saintes-Maries-de-la-Mer_-_s0028V1962_-_Van_Gogh_Museum.jpg
+  p3-alyscamps               [330x413] Van_gogh_lallee_des_alyscamps.jpg
+  p3-self-gauguin            [330x403] Van_Gogh_self-portrait_dedicated_to_Gauguin.jpg
+  p4-starry-night            [330x261] Van Gogh - Starry Night - Google Art Project.jpg
+  p4-irises                  [330x418] Vincent van Gogh - Irises - Google Art Project.jpg
+  p4-self-orsay-89         （版本存疑）  [330x401] Vincent van Gogh - Self-Portrait - Google Art Project.jpg
+  p4-self-nga-89           （版本存疑）  [330x453] Self-Portrait.jpg
+  p4-mulberry                [330x273] The Mulberry Tree by Vincent van Gogh.jpg
+  p4-peacock-moth            [330x412] Great Peacock Moth.jpg
+  p4-pieta                   [330x408] Vincent van Gogh - Pietà (after Delacroix).jpg
+  p4-good-samaritan          [330x433] Van_Gogh_-_Der_barmherzige_Samariter.jpeg
+  p4-prisoners               [330x420] Vincent_Willem_van_Gogh_037.jpg
+  p4-long-grass              [330x263] Van_Gogh_-_Rasenstück_mit_Schmetterlingen.jpeg
+  p4-butterflies-poppies     [330x445] Vlinders_en_klaprozen_-_s0188V1962_-_Van_Gogh_Museum.jpg
+  p4-eternity-gate           [330x416] Van Gogh - At Eternity's Gate.jpg
+  p4-lazarus                 [330x252] De_opwekking_van_Lazarus_(naar_Rembrandt)_-_s0169V1962_-_Van_Gogh_Museum.jpg
+  p4-ginoux-rome           （版本存疑）  [330x437] Van Gogh - L'Arlésienne.jpg
+  p4-almond-blossom          [330x261] Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg
+  p4-st-paul-garden          [330x261] De_tuin_van_de_inrichting_-_s0196V1962_-_Van_Gogh_Museum.jpg
+  p4-binding-sheaves         [330x436] De_schovenbindster_(naar_Millet)_-_s0172V1962_-_Van_Gogh_Museum.jpg
+  p4-sower-millet          （版本存疑）  [330x262] The Sower.jpg
+  p5-crows                   [330x158] Korenveld_met_kraaien_-_s0149V1962_-_Van_Gogh_Museum.jpg
+  p5-gachet-1              （版本存疑）  [330x406] Portrait of Dr. Gachet.jpg
+  p5-gachet-2              （版本存疑）  [330x397] Vincent van Gogh - Dr. Gachet - Google Art Project.jpg
+  p5-church                  [330x426] Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg
+  p5-houses-toledo           [330x266] Vincent van Gogh - Houses at Auvers - Google Art Project.jpg
+  p5-cordeville              [330x261] Vincent van Gogh - Thatched Cottages at Cordeville - Google Art Project.jpg
+  p5-white-house-night       [330x262] The White House at Night.jpg
+  p5-adeline                 [330x329] Adeline_Ravoux,_by_Vincent_van_Gogh,_Cleveland_Museum_of_Art,_1958.31.jpg
+  p5-gachet-garden           [330x482] Doctor Gachet's Garden in Auvers.jpg
+  p5-thunderclouds           [330x162] Korenveld_onder_onweerslucht_-_s0106V1962_-_Van_Gogh_Museum.jpg
+  p5-tree-roots              [330x587] Tree Roots.jpg
+  p5-daisies-poppies         [330x494] Van_Gogh_-_Vase_mit_Margeriten_und_Anemonen.jpeg
+  p5-marguerite              [330x693] Van_Gogh_-_Marguerite_Gachet_am_Klavier.jpeg
+  p5-twilight                [330x162] Landschap_bij_avondschemering_-_s0107V1962_-_Van_Gogh_Museum.jpg
+  p5-sheaves                 [330x163] Vincent_van_Gogh_-_Sheaves_of_Wheat,_1890.jpg
+
+【版本存疑清单】
+  p2-self-aic：自画像多幅：需核对为芝加哥艺术博物馆 1887 年版 | 实际命中：Self-Portrait.jpg
+  p2-self-orsay-87：自画像多幅：需核对为奥赛博物馆 1887 年版 | 实际命中：Vincent van Gogh - Self-Portrait - Google Art Project.jpg
+  p2-tanguy：唐吉老爹肖像多版：需核对为巴黎罗丹博物馆版（日本版画背景） | 实际命中：Van_Gogh_-_Bildnis_Père_Tanguy.jpeg
+  p3-sunflowers-london：向日葵三版之一：需核对为伦敦国家美术馆版（1888年8月，15朵） | 实际命中：Sunflowers.jpg
+  p3-sunflowers-munich：向日葵三版之一：需核对为慕尼黑新绘画陈列馆版（12朵，浅蓝背景） | 实际命中：Vase with Twelve Sunflowers.jpg
+  p3-sunflowers-amsterdam：向日葵三版之一：需核对为阿姆斯特丹梵高博物馆 1889 年 1 月重绘版 | 实际命中：Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg
+  p3-bedroom：阿尔勒的卧室共三版：需核对为阿姆斯特丹梵高博物馆 1888 年 10 月第一版 | 实际命中：Vincent van Gogh - De slaapkamer - Google Art Project.jpg
+  p3-ginoux：吉努夫人两版：需核对为奥赛 1888 年 11 月版（桌上书本与阳伞） | 实际命中：Van Gogh - L'Arlésienne.jpg
+  p3-sower：播种者多版：需核对为 1888 年 11 月阿尔勒版（落日与麦田） | 实际命中：The Sower.jpg
+  p4-self-orsay-89：自画像多幅：需核对为奥赛博物馆 1889 年 9 月版（蓝绿色涡旋背景） | 实际命中：Vincent van Gogh - Self-Portrait - Google Art Project.jpg
+  p4-self-nga-89：自画像多幅：需核对为华盛顿美国国家美术馆 1889 年 8 月版 | 实际命中：Self-Portrait.jpg
+  p4-ginoux-rome：吉努夫人两版：需核对为罗马国立现代艺术美术馆 1890 年版（仿高更速写） | 实际命中：Van Gogh - L'Arlésienne.jpg
+  p4-sower-millet：播种者多版：需核对为仿米勒的播种者（1890，圣雷米） | 实际命中：The Sower.jpg | 版本存疑：must[Millet] 不匹配
+  p5-gachet-1：加歇医生两版：需核对为第一版（私人收藏，桌上两本书+毛地黄） | 实际命中：Portrait of Dr. Gachet.jpg
+  p5-gachet-2：加歇医生两版：需核对为第二版（奥赛，无书） | 实际命中：Vincent van Gogh - Dr. Gachet - Google Art Project.jpg
+  —— 以下文件被多幅作品共用（需人工消歧）——
+  Self-Portrait.jpg <- p2-self-aic, p4-self-nga-89
+  Vincent van Gogh - Self-Portrait - Google Art Project.jpg <- p2-self-orsay-87, p4-self-orsay-89
+  The Sower.jpg <- p3-sower, p4-sower-millet
+  Van Gogh - L'Arlésienne.jpg <- p3-ginoux, p4-ginoux-rome
+
+【未解决】

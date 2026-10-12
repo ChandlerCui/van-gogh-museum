@@ -1,0 +1,5 @@
+# 遗留的空仓库目录（本地误建，勿提交，否则会被 git 当作子模块）
+van-gogh-museum/
+
+# 本地运行日志
+assets/fetch-images.log

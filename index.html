@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>梵高线上博物馆 · Van Gogh Online Museum</title>
+<meta name="description" content="按创作生涯七个时期收录梵高代表作的线上博物馆：每件作品附创作背景与赏析。">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preload" as="image" href="assets/img/p4-starry-night-d.jpg" fetchpriority="high">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="#/" aria-label="回到首页">
+      <span class="wordmark-en">VAN GOGH</span>
+      <span class="wordmark-zh">梵高线上博物馆</span>
+    </a>
+    <nav class="period-nav" id="periodNav" aria-label="展厅导航"></nav>
+    <form class="search-form" id="searchForm" role="search">
+      <input id="searchInput" type="search" placeholder="搜索作品、馆藏地…" aria-label="搜索作品">
+    </form>
+  </div>
+</header>
+
+<main id="view" class="wrap"></main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-col">
+      <p class="footer-mark">VAN GOGH<span>梵高线上博物馆</span></p>
+      <p class="footer-note">一座按时间线陈列文森特·梵高创作生涯的线上博物馆：七个展厅、七篇序章，每一件作品都附有创作背景与赏析。</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-h">参观动线</p>
+      <ul class="footer-links" id="footerPeriods"></ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-h">来源与致谢</p>
+      <p class="footer-note">作品图像来自 Wikimedia Commons（公有领域）与纽约大都会艺术博物馆开放获取项目（CC0）。作品编目参照 De la Faille（F 编号）与 Hulsker（JH 编号）体系。</p>
+      <p class="footer-note dim">本站为非商业性的教育项目。作品年代与馆藏信息以各收藏机构官方数据为准，本站内容仅作欣赏与学习之用。</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>一八八〇 — 一八九〇 · 画其所见，画其所感</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="关闭">×</button>
+  <figure class="lightbox-fig">
+    <img id="lightboxImg" src="" alt="">
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,572 @@
+{
+  "p1-cabbage-clogs": {
+    "source": "commons",
+    "file": "Still Life with Cabbage and Clogs.jpg",
+    "w": 1024,
+    "h": 636
+  },
+  "p1-congregation": {
+    "source": "commons",
+    "file": "Van_Gogh_-_Die_Kirche_von_Nuenen_mit_Kirchgängern.jpeg",
+    "w": 3852,
+    "h": 5076
+  },
+  "p1-parsonage-garden": {
+    "source": "commons",
+    "file": "Van_Gogh_-_The_Parsonage_Garden_at_Nuenen.jpg",
+    "w": 5320,
+    "h": 2240
+  },
+  "p1-weaver": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Weaver_-_Google_Art_Project.jpg",
+    "w": 5080,
+    "h": 3739
+  },
+  "p1-watermill": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Watermolen_in_Gennep.jpg",
+    "w": 2750,
+    "h": 1576
+  },
+  "p1-old-tower": {
+    "source": "commons",
+    "file": "De_oude_kerktoren_te_Nuenen_(`Het_boerenkerkhof')_-_s0002V1962_-_Van_Gogh_Museum.jpg",
+    "w": 7113,
+    "h": 5787
+  },
+  "p1-lane-poplars": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Poplars_near_Nuenen_-_Google_Art_Project.jpg",
+    "w": 4936,
+    "h": 3917
+  },
+  "p1-potato-eaters": {
+    "source": "commons",
+    "file": "Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg",
+    "w": 7698,
+    "h": 5428
+  },
+  "p1-bible": {
+    "source": "commons",
+    "file": "Stilleven_met_bijbel_-_s0008V1962_-_Van_Gogh_Museum.jpg",
+    "w": 6811,
+    "h": 5642
+  },
+  "p2-moulin-galette": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Le Moulin de la Galette - Google Art Project.jpg",
+    "w": 2664,
+    "h": 3274
+  },
+  "p2-agostina": {
+    "source": "commons",
+    "file": "Portret_van_Agostina_Segatori_-_s0093V1962_-_Van_Gogh_Museum.jpg",
+    "w": 5321,
+    "h": 6674
+  },
+  "p2-boulevard-clichy": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Boulevard de Clichy - Google Art Project.jpg",
+    "w": 2995,
+    "h": 2480
+  },
+  "p2-self-grey-felt": {
+    "source": "commons",
+    "file": "Zelfportret_met_grijze_vilthoed_-_s0016V1962_-_Van_Gogh_Museum.jpg",
+    "w": 5613,
+    "h": 6813
+  },
+  "p2-self-straw-hat": {
+    "source": "met",
+    "small": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg",
+    "original": "https://images.metmuseum.org/CRDImages/ep/original/DT1502_cropped2.jpg",
+    "objectID": 436532,
+    "w": 502,
+    "h": 625
+  },
+  "p2-self-aic": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Self-Portrait - Google Art Project (454045).jpg",
+    "w": 4747,
+    "h": 6000
+  },
+  "p2-self-orsay-87": {
+    "source": "commons",
+    "file": "Van Gogh - Selbstbildnis 27.jpg",
+    "w": 2538,
+    "h": 3228
+  },
+  "p2-tanguy": {
+    "source": "commons",
+    "file": "Van_Gogh_-_Bildnis_Père_Tanguy.jpeg",
+    "w": 2520,
+    "h": 3360
+  },
+  "p2-skull": {
+    "source": "commons",
+    "file": "Kop_van_een_skelet_met_brandende_sigaret_-_s0083V1962_-_Van_Gogh_Museum.jpg",
+    "w": 5470,
+    "h": 7256
+  },
+  "p2-apples-pears": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Kweeperen,_citroenen,_peren_en_druiven_-_Google_Art_Project.jpg",
+    "w": 3848,
+    "h": 2840
+  },
+  "p2-red-cabbage": {
+    "source": "commons",
+    "file": "Rode_kolen_en_uien_-_s0082V1962_-_Van_Gogh_Museum.jpg",
+    "w": 7306,
+    "h": 5661
+  },
+  "p2-lark": {
+    "source": "commons",
+    "file": "Van_Gogh_-_Getreidefeld_mit_Mohnblumen_und_Lerche.jpeg",
+    "w": 2526,
+    "h": 2064
+  },
+  "p2-plum-orchard": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Bloeiende_pruimenboomgaard-_naar_Hiroshige_-_Google_Art_Project.jpg",
+    "w": 4000,
+    "h": 4755
+  },
+  "p2-bridge-rain": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Brug_in_de_regen-_naar_Hiroshige_-_Google_Art_Project.jpg",
+    "w": 4000,
+    "h": 5402
+  },
+  "p2-courtesan": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Courtesan-_after_Eisen_-_Google_Art_Project.jpg",
+    "w": 2102,
+    "h": 3508
+  },
+  "p3-sunflowers-london": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Sunflowers (1888, National Gallery London).jpg",
+    "w": 4719,
+    "h": 6000
+  },
+  "p3-sunflowers-munich": {
+    "source": "commons",
+    "file": "Vase with Twelve Sunflowers.jpg",
+    "w": 2249,
+    "h": 2731
+  },
+  "p3-sunflowers-amsterdam": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg",
+    "w": 3224,
+    "h": 4226
+  },
+  "p3-night-cafe": {
+    "source": "commons",
+    "file": "Le_café_de_nuit_(The_Night_Café)_by_Vincent_van_Gogh.jpeg",
+    "w": 7408,
+    "h": 5848
+  },
+  "p3-cafe-terrace": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Cafe_Terrace_at_Night_(1888).jpg",
+    "w": 4926,
+    "h": 6467
+  },
+  "p3-yellow-house": {
+    "source": "commons",
+    "file": "Vincent van Gogh - The yellow house (`The street') - Google Art Project.jpg",
+    "w": 3166,
+    "h": 2481
+  },
+  "p3-bedroom": {
+    "source": "commons",
+    "file": "Vincent van Gogh - De slaapkamer - Google Art Project.jpg",
+    "w": 30000,
+    "h": 23803
+  },
+  "p3-rhone": {
+    "source": "commons",
+    "file": "Starry Night Over the Rhone.jpg",
+    "w": 5407,
+    "h": 4191
+  },
+  "p3-bandaged-ear": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Self-Portrait with Bandaged Ear 1889 - Google Art Project.jpg",
+    "w": 7987,
+    "h": 9704
+  },
+  "p3-boch": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Eugène_Boch_-_Google_Art_Project.jpg",
+    "w": 3875,
+    "h": 5329
+  },
+  "p3-ginoux": {
+    "source": "commons",
+    "file": "Vincent van Gogh - The Arlesienne - Google Art Project.jpg",
+    "w": 4097,
+    "h": 5158
+  },
+  "p3-roulin": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Portrait de Joseph Roulin - Google Art Project.jpg",
+    "w": 5017,
+    "h": 5928
+  },
+  "p3-berceuse": {
+    "source": "commons",
+    "file": "Vincent van Gogh - La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851–1930).jpg",
+    "w": 2965,
+    "h": 3722
+  },
+  "p3-zouave": {
+    "source": "commons",
+    "file": "Vincent van Gogh - The Zouave - Google Art Project.jpg",
+    "w": 2481,
+    "h": 2965
+  },
+  "p3-sower": {
+    "source": "commons",
+    "file": "De zaaier - s0029V1962 - Van Gogh Museum.jpg",
+    "w": 7003,
+    "h": 5625
+  },
+  "p3-harvest": {
+    "source": "commons",
+    "file": "Vincent van Gogh - De oogst - Google Art Project.jpg",
+    "w": 5065,
+    "h": 4000
+  },
+  "p3-farmhouse": {
+    "source": "commons",
+    "file": "Farmhouse in Provence, 1888, Vincent van Gogh, NGA.jpg",
+    "w": 16428,
+    "h": 12392
+  },
+  "p3-poet-garden": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_The_Poet's_Garden_-_1933.433_-_Art_Institute_of_Chicago.jpg",
+    "w": 2834,
+    "h": 2250
+  },
+  "p3-peach-trees": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Pink peach trees ('Souvenir de Mauve') - Google Art Project.jpg",
+    "w": 2912,
+    "h": 3579
+  },
+  "p3-white-orchard": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_The_white_orchard_-_Google_Art_Project.jpg",
+    "w": 2036,
+    "h": 1501
+  },
+  "p3-orchard-cypresses": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Orchard_Bordered_by_Cypresse_-_ILE2017.12.1_-_Yale_University_Art_Gallery.jpg",
+    "w": 8206,
+    "h": 6640
+  },
+  "p3-langlois": {
+    "source": "commons",
+    "file": "Vincent_Willem_van_Gogh_-_Pont_de_Langlois_-_Kröller-Müller.jpg",
+    "w": 1996,
+    "h": 1628
+  },
+  "p3-red-vineyard": {
+    "source": "commons",
+    "file": "Red_vineyards.jpg",
+    "w": 2001,
+    "h": 1560
+  },
+  "p3-etten-garden": {
+    "source": "commons",
+    "file": "Vincent_Willem_van_Gogh_098.jpg",
+    "w": 5098,
+    "h": 4001
+  },
+  "p3-dance-hall": {
+    "source": "commons",
+    "file": "Vincent van Gogh - The Dance Hall in Arles - Google Art Project.jpg",
+    "w": 5057,
+    "h": 4057
+  },
+  "p3-vangogh-chair": {
+    "source": "commons",
+    "file": "Van Gogh's Chair.jpg",
+    "w": 3918,
+    "h": 5091
+  },
+  "p3-gauguin-chair": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_De_stoel_van_Gauguin_-_Google_Art_Project.jpg",
+    "w": 4000,
+    "h": 4997
+  },
+  "p3-snow": {
+    "source": "commons",
+    "file": "Van_Gogh_-_Landschaft_im_Schnee.jpg",
+    "w": 980,
+    "h": 797
+  },
+  "p3-oleanders": {
+    "source": "met",
+    "small": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1494.jpg",
+    "original": "https://images.metmuseum.org/CRDImages/ep/original/DT1494.jpg",
+    "objectID": 436530,
+    "w": 599,
+    "h": 492
+  },
+  "p3-fishing-boats": {
+    "source": "commons",
+    "file": "Vissersboten_op_het_strand_van_Les_Saintes-Maries-de-la-Mer_-_s0028V1962_-_Van_Gogh_Museum.jpg",
+    "w": 6713,
+    "h": 5342
+  },
+  "p3-alyscamps": {
+    "source": "commons",
+    "file": "Van Gogh - Les Alyscamps, Allee in Arles1.jpeg",
+    "w": 3876,
+    "h": 5070
+  },
+  "p3-self-gauguin": {
+    "source": "commons",
+    "file": "Van_Gogh_self-portrait_dedicated_to_Gauguin.jpg",
+    "w": 4748,
+    "h": 5800
+  },
+  "p4-starry-night": {
+    "source": "commons",
+    "file": "Van Gogh - Starry Night - Google Art Project.jpg",
+    "w": 44567,
+    "h": 35291
+  },
+  "p4-irises": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Irises - Google Art Project.jpg",
+    "w": 2481,
+    "h": 3141
+  },
+  "p4-wf-cypresses": {
+    "source": "met",
+    "small": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+    "original": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+    "objectID": 436535,
+    "w": 599,
+    "h": 477
+  },
+  "p4-cypresses": {
+    "source": "met",
+    "small": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130999.jpg",
+    "original": "https://images.metmuseum.org/CRDImages/ep/original/DP130999.jpg",
+    "objectID": 437980,
+    "w": 495,
+    "h": 624
+  },
+  "p4-self-orsay-89": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Self-Portrait - Google Art Project.jpg",
+    "w": 3142,
+    "h": 3820
+  },
+  "p4-self-nga-89": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Self-Portrait - Google Art Project (719161).jpg",
+    "w": 3571,
+    "h": 4633
+  },
+  "p4-olive-trees": {
+    "source": "met",
+    "small": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1946.jpg",
+    "original": "https://images.metmuseum.org/CRDImages/ep/original/DT1946.jpg",
+    "objectID": 437998,
+    "w": 599,
+    "h": 478
+  },
+  "p4-mulberry": {
+    "source": "commons",
+    "file": "The Mulberry Tree by Vincent van Gogh.jpg",
+    "w": 2512,
+    "h": 2076
+  },
+  "p4-peacock-moth": {
+    "source": "commons",
+    "file": "Grote nachtpauwoog - s0189V1962 - Van Gogh Museum.jpg",
+    "w": 5359,
+    "h": 7316
+  },
+  "p4-pieta": {
+    "source": "commons",
+    "file": "Pietà (naar Delacroix) - s0168V1962 - Van Gogh Museum.jpg",
+    "w": 5536,
+    "h": 6741
+  },
+  "p4-good-samaritan": {
+    "source": "commons",
+    "file": "Van_Gogh_-_Der_barmherzige_Samariter.jpeg",
+    "w": 3876,
+    "h": 5082
+  },
+  "p4-prisoners": {
+    "source": "commons",
+    "file": "Vincent_Willem_van_Gogh_037.jpg",
+    "w": 1570,
+    "h": 2000
+  },
+  "p4-first-steps": {
+    "source": "met",
+    "small": "https://images.metmuseum.org/CRDImages/ep/web-large/DP124808.jpg",
+    "original": "https://images.metmuseum.org/CRDImages/ep/original/DP124808.jpg",
+    "objectID": 436526,
+    "w": 599,
+    "h": 475
+  },
+  "p4-long-grass": {
+    "source": "commons",
+    "file": "Van Gogh - Wiese im Garten des Hospitals Saint-Paul.jpeg",
+    "w": 6000,
+    "h": 4749
+  },
+  "p4-butterflies-poppies": {
+    "source": "commons",
+    "file": "Vlinders_en_klaprozen_-_s0188V1962_-_Van_Gogh_Museum.jpg",
+    "w": 2480,
+    "h": 3348
+  },
+  "p4-eternity-gate": {
+    "source": "commons",
+    "file": "Van Gogh - At Eternity's Gate.jpg",
+    "w": 1601,
+    "h": 2019
+  },
+  "p4-lazarus": {
+    "source": "commons",
+    "file": "De_opwekking_van_Lazarus_(naar_Rembrandt)_-_s0169V1962_-_Van_Gogh_Museum.jpg",
+    "w": 7336,
+    "h": 5611
+  },
+  "p4-ginoux-rome": {
+    "source": "commons",
+    "file": "Van Gogh - L'Arlesiana (Ritratto di M.me Ginoux) 1890 Google Art Project Rome.jpg",
+    "w": 8597,
+    "h": 10374
+  },
+  "p4-almond-blossom": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg",
+    "w": 3139,
+    "h": 2480
+  },
+  "p4-st-paul-garden": {
+    "source": "commons",
+    "file": "De_tuin_van_de_inrichting_-_s0196V1962_-_Van_Gogh_Museum.jpg",
+    "w": 6842,
+    "h": 5415
+  },
+  "p4-binding-sheaves": {
+    "source": "commons",
+    "file": "De_schovenbindster_(naar_Millet)_-_s0172V1962_-_Van_Gogh_Museum.jpg",
+    "w": 5629,
+    "h": 7440
+  },
+  "p4-sower-millet": {
+    "source": "commons",
+    "file": "The Sower - Vincent Van Gogh.jpg",
+    "w": 5472,
+    "h": 6492
+  },
+  "p5-crows": {
+    "source": "commons",
+    "file": "Korenveld_met_kraaien_-_s0149V1962_-_Van_Gogh_Museum.jpg",
+    "w": 7762,
+    "h": 3718
+  },
+  "p5-gachet-1": {
+    "source": "commons",
+    "file": "Van Gogh - Bildnis Doktor Gachet.jpeg",
+    "w": 3858,
+    "h": 5082
+  },
+  "p5-gachet-2": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Dr Paul Gachet - Google Art Project.jpg",
+    "w": 5611,
+    "h": 6748
+  },
+  "p5-church": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_The_Church_in_Auvers-sur-Oise,_View_from_the_Chevet_-_Google_Art_Project.jpg",
+    "w": 3434,
+    "h": 4433
+  },
+  "p5-houses-toledo": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Houses at Auvers - Google Art Project.jpg",
+    "w": 5665,
+    "h": 4571
+  },
+  "p5-cordeville": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Thatched Cottages at Cordeville - Google Art Project.jpg",
+    "w": 5067,
+    "h": 4007
+  },
+  "p5-white-house-night": {
+    "source": "commons",
+    "file": "Whitehousenight.jpg",
+    "w": 12682,
+    "h": 10528
+  },
+  "p5-adeline": {
+    "source": "commons",
+    "file": "Adeline_Ravoux,_by_Vincent_van_Gogh,_Cleveland_Museum_of_Art,_1958.31.jpg",
+    "w": 11512,
+    "h": 11476
+  },
+  "p5-gachet-garden": {
+    "source": "commons",
+    "file": "Doctor Gachet's Garden in Auvers.jpg",
+    "w": 1448,
+    "h": 2117
+  },
+  "p5-thunderclouds": {
+    "source": "commons",
+    "file": "Korenveld_onder_onweerslucht_-_s0106V1962_-_Van_Gogh_Museum.jpg",
+    "w": 7770,
+    "h": 3815
+  },
+  "p5-tree-roots": {
+    "source": "commons",
+    "file": "Vincent van Gogh - Tree Roots and Trunks (F816).jpg",
+    "w": 3543,
+    "h": 1740
+  },
+  "p5-daisies-poppies": {
+    "source": "commons",
+    "file": "Van_Gogh_-_Vase_mit_Margeriten_und_Anemonen.jpeg",
+    "w": 3390,
+    "h": 5076
+  },
+  "p5-marguerite": {
+    "source": "commons",
+    "file": "Van_Gogh_-_Marguerite_Gachet_am_Klavier.jpeg",
+    "w": 2412,
+    "h": 5064
+  },
+  "p5-twilight": {
+    "source": "commons",
+    "file": "Landschap_bij_avondschemering_-_s0107V1962_-_Van_Gogh_Museum.jpg",
+    "w": 3507,
+    "h": 1719
+  },
+  "p5-sheaves": {
+    "source": "commons",
+    "file": "Vincent_van_Gogh_-_Sheaves_of_Wheat,_1890.jpg",
+    "w": 9223,
+    "h": 4547
+  }
+}
