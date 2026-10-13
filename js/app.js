@@ -38,6 +38,20 @@
       return t.trim() ? '<p>' + esc(t) + '</p>' : '';
     }).join('');
   }
+  /* 序章：首段开头的四位年份单独包裹，供大号年份排版使用 */
+  function prefaceHtml(text) {
+    var wrapped = false;
+    return String(text).split('\n').map(function (t) {
+      t = t.trim();
+      if (!t) return '';
+      var safe = esc(t);
+      if (!wrapped) {
+        wrapped = true;
+        safe = safe.replace(/^(\d{4})/, '<span class="preface-year">$1</span>');
+      }
+      return '<p>' + safe + '</p>';
+    }).join('');
+  }
 
   /* ———— 导航与页脚 ———— */
   function buildNav() {
@@ -152,7 +166,7 @@
 
       '<section class="preface">' +
         '<h2>序 · PREFACE</h2>' +
-        para(p.preface) +
+        prefaceHtml(p.preface) +
         '<p class="preface-sign">—— 本时期导览</p>' +
       '</section>' +
 

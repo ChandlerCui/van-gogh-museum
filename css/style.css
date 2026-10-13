@@ -226,9 +226,9 @@ button { font-family: inherit; cursor: pointer; }
 .preface { max-width: 860px; margin: 52px auto 0; padding-top: 40px; border-top: 1px solid var(--line-2); }
 .preface h2 { font-size: 15px; font-weight: 700; letter-spacing: 0.26em; color: var(--ink-2); margin-bottom: 24px; }
 .preface p { font-size: 16.5px; line-height: 1.95; color: var(--ink); margin-bottom: 20px; text-align: justify; }
-.preface p:first-of-type::first-letter {
-  float: left; font-size: 64px; line-height: 0.85; padding: 8px 12px 0 0;
-  color: var(--accent); font-weight: 700;
+.preface-year {
+  float: left; font-size: 52px; line-height: 0.88; padding: 4px 14px 0 0;
+  color: var(--gold); font-weight: 700; letter-spacing: 0.01em;
 }
 .preface-sign { margin-top: 28px; font-size: 13px; font-family: var(--sans); color: var(--ink-3); letter-spacing: 0.07em; }
 
@@ -414,7 +414,7 @@ button { font-family: inherit; cursor: pointer; }
   .works-grid { grid-template-columns: 1fr; }
   .timeline-item { min-width: 150px; }
   .preface { margin-top: 34px; }
-  .preface p:first-of-type::first-letter { font-size: 50px; }
+  .preface-year { font-size: 36px; padding-right: 10px; }
   .hall-empty { padding: 34px 0 38px; }
   .work-nav a { max-width: 80%; }
   .footer-grid { grid-template-columns: 1fr; gap: 30px; padding-top: 48px; }
