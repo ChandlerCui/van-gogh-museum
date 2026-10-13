@@ -89,15 +89,6 @@ node tools/fetch-images.js   # 下载图像 → assets/img/ + content/local-imag
 - **免责说明**：作品年代与馆藏信息以各收藏机构官方数据为准，本站内容仅作欣赏与学习之用。
 - 本站为**非商业性教育项目**，不对图像主张任何权利。
 
-## 部署
-
-托管于 GitHub Pages：
-
-1. 仓库 **Settings → Pages**
-2. Source 选择 **Deploy from a branch**
-3. Branch 选 **`main`** + **`/(root)`**，保存
-4. 稍候访问 <https://chandlercui.github.io/van-gogh-museum/>
-
 站点使用相对路径与 hash 路由，部署在 `/van-gogh-museum/` 子目录下无需任何额外配置。
 
 ---
