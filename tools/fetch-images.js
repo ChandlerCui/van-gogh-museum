@@ -16,10 +16,11 @@ const LOG = path.join(root, 'assets', 'fetch-images.log');
 const TMPLOG = 'C:/Users/ChandlerC/AppData/Local/Temp/vgm-fetch.log';
 
 const UA = 'VanGoghOnlineMuseum/1.0 (educational static site; local build)';
-/* Wikimedia 仅在“已缓存”时接受任意宽度；需现场生成缩略图时只接受标准宽度，
-   故按常用宽度依次回退（480/1400 命中率最高，缺失时退到标准档）。 */
-const THUMB_W = [480, 640, 500, 320];
-const DETAIL_W = [1400, 1280, 1024, 800];
+/* Commons 只按“常见缩略图尺寸”生成缩略图，非白名单宽度一律返回 HTTP 400，
+   故只从白名单中挑取（thumb.php 的宽度参数为 w）。
+   参考：https://www.mediawiki.org/wiki/Common_thumbnail_sizes */
+const THUMB_W = [500, 960];
+const DETAIL_W = [1280, 1920, 960];
 
 fs.mkdirSync(OUTDIR, { recursive: true });
 

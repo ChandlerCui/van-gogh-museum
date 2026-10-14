@@ -1,99 +1,75 @@
 {
  "p1-congregation": {
   "thumb": "assets/img/p1-congregation-t.jpg",
-  "detail": "assets/img/p1-congregation-d.jpg",
-  "zoom": "assets/img/p1-congregation-d.jpg",
   "w": 1366,
   "h": 1800,
-  "bytes": 862014
+  "bytes": 113080
  },
  "p1-parsonage-garden": {
   "thumb": "assets/img/p1-parsonage-garden-t.jpg",
-  "detail": "assets/img/p1-parsonage-garden-d.jpg",
-  "zoom": "assets/img/p1-parsonage-garden-d.jpg",
   "w": 1400,
   "h": 589,
-  "bytes": 244105
+  "bytes": 31012
  },
  "p1-weaver": {
   "thumb": "assets/img/p1-weaver-t.jpg",
-  "detail": "assets/img/p1-weaver-d.jpg",
-  "zoom": "assets/img/p1-weaver-d.jpg",
   "w": 1400,
   "h": 1030,
-  "bytes": 401329
+  "bytes": 48255
  },
  "p1-watermill": {
   "thumb": "assets/img/p1-watermill-t.jpg",
-  "detail": "assets/img/p1-watermill-d.jpg",
-  "zoom": "assets/img/p1-watermill-d.jpg",
   "w": 1400,
   "h": 802,
-  "bytes": 313678
+  "bytes": 38000
  },
  "p1-old-tower": {
   "thumb": "assets/img/p1-old-tower-t.jpg",
-  "detail": "assets/img/p1-old-tower-d.jpg",
-  "zoom": "assets/img/p1-old-tower-d.jpg",
   "w": 1400,
   "h": 1139,
-  "bytes": 334514
+  "bytes": 39924
  },
  "p1-lane-poplars": {
   "thumb": "assets/img/p1-lane-poplars-t.jpg",
-  "detail": "assets/img/p1-lane-poplars-d.jpg",
-  "zoom": "assets/img/p1-lane-poplars-d.jpg",
   "w": 1400,
   "h": 1111,
-  "bytes": 640263
+  "bytes": 75046
  },
  "p1-potato-eaters": {
   "thumb": "assets/img/p1-potato-eaters-t.jpg",
-  "detail": "assets/img/p1-potato-eaters-d.jpg",
-  "zoom": "assets/img/p1-potato-eaters-d.jpg",
   "w": 1400,
   "h": 987,
-  "bytes": 287888
+  "bytes": 33550
  },
  "p1-bible": {
   "thumb": "assets/img/p1-bible-t.jpg",
-  "detail": "assets/img/p1-bible-d.jpg",
-  "zoom": "assets/img/p1-bible-d.jpg",
   "w": 1400,
   "h": 1160,
-  "bytes": 336224
+  "bytes": 43741
  },
  "p2-moulin-galette": {
   "thumb": "assets/img/p2-moulin-galette-t.jpg",
-  "detail": "assets/img/p2-moulin-galette-d.jpg",
-  "zoom": "assets/img/p2-moulin-galette-d.jpg",
   "w": 1400,
   "h": 1721,
-  "bytes": 461676
+  "bytes": 65874
  },
  "p2-agostina": {
   "thumb": "assets/img/p2-agostina-t.jpg",
-  "detail": "assets/img/p2-agostina-d.jpg",
-  "zoom": "assets/img/p2-agostina-d.jpg",
   "w": 1400,
   "h": 1756,
-  "bytes": 709662
+  "bytes": 70802
  },
  "p2-boulevard-clichy": {
   "thumb": "assets/img/p2-boulevard-clichy-t.jpg",
-  "detail": "assets/img/p2-boulevard-clichy-d.jpg",
-  "zoom": "assets/img/p2-boulevard-clichy-d.jpg",
   "w": 1400,
   "h": 1159,
-  "bytes": 614876
+  "bytes": 66694
  },
  "p2-self-grey-felt": {
   "thumb": "assets/img/p2-self-grey-felt-t.jpg",
-  "detail": "assets/img/p2-self-grey-felt-d.jpg",
-  "zoom": "assets/img/p2-self-grey-felt-d.jpg",
   "w": 1400,
   "h": 1699,
-  "bytes": 1048550
+  "bytes": 116153
  },
  "p2-self-straw-hat": {
   "thumb": "assets/img/p2-self-straw-hat-t.jpg",
@@ -105,307 +81,231 @@
  },
  "p2-self-aic": {
   "thumb": "assets/img/p2-self-aic-t.jpg",
-  "detail": "assets/img/p2-self-aic-d.jpg",
-  "zoom": "assets/img/p2-self-aic-d.jpg",
   "w": 1400,
   "h": 1770,
-  "bytes": 902001
+  "bytes": 121182
  },
  "p2-self-orsay-87": {
   "thumb": "assets/img/p2-self-orsay-87-t.jpg",
-  "detail": "assets/img/p2-self-orsay-87-d.jpg",
-  "zoom": "assets/img/p2-self-orsay-87-d.jpg",
   "w": 1400,
   "h": 1781,
-  "bytes": 967604
+  "bytes": 114319
  },
  "p2-tanguy": {
   "thumb": "assets/img/p2-tanguy-t.jpg",
-  "detail": "assets/img/p2-tanguy-d.jpg",
-  "zoom": "assets/img/p2-tanguy-d.jpg",
   "w": 1350,
   "h": 1800,
-  "bytes": 1037266
+  "bytes": 109228
  },
  "p2-skull": {
   "thumb": "assets/img/p2-skull-t.jpg",
-  "detail": "assets/img/p2-skull-d.jpg",
-  "zoom": "assets/img/p2-skull-d.jpg",
   "w": 1357,
   "h": 1800,
-  "bytes": 665719
+  "bytes": 79443
  },
  "p2-apples-pears": {
   "thumb": "assets/img/p2-apples-pears-t.jpg",
-  "detail": "assets/img/p2-apples-pears-d.jpg",
-  "zoom": "assets/img/p2-apples-pears-d.jpg",
   "w": 1400,
   "h": 1033,
-  "bytes": 651626
+  "bytes": 78595
  },
  "p2-red-cabbage": {
   "thumb": "assets/img/p2-red-cabbage-t.jpg",
-  "detail": "assets/img/p2-red-cabbage-d.jpg",
-  "zoom": "assets/img/p2-red-cabbage-d.jpg",
   "w": 1400,
   "h": 1085,
-  "bytes": 626031
+  "bytes": 73534
  },
  "p2-lark": {
   "thumb": "assets/img/p2-lark-t.jpg",
-  "detail": "assets/img/p2-lark-d.jpg",
-  "zoom": "assets/img/p2-lark-d.jpg",
   "w": 1400,
   "h": 1144,
-  "bytes": 647345
+  "bytes": 74452
  },
  "p2-plum-orchard": {
   "thumb": "assets/img/p2-plum-orchard-t.jpg",
-  "detail": "assets/img/p2-plum-orchard-d.jpg",
-  "zoom": "assets/img/p2-plum-orchard-d.jpg",
   "w": 1400,
   "h": 1664,
-  "bytes": 917416
+  "bytes": 103902
  },
  "p2-bridge-rain": {
   "thumb": "assets/img/p2-bridge-rain-t.jpg",
-  "detail": "assets/img/p2-bridge-rain-d.jpg",
-  "zoom": "assets/img/p2-bridge-rain-d.jpg",
   "w": 1333,
   "h": 1800,
-  "bytes": 1042799
+  "bytes": 109023
  },
  "p2-courtesan": {
   "thumb": "assets/img/p2-courtesan-t.jpg",
-  "detail": "assets/img/p2-courtesan-d.jpg",
-  "zoom": "assets/img/p2-courtesan-d.jpg",
   "w": 1079,
-  "h": 1800,
-  "bytes": 867310
+  "h": 1801,
+  "bytes": 174128
  },
  "p3-sunflowers-london": {
   "thumb": "assets/img/p3-sunflowers-london-t.jpg",
-  "detail": "assets/img/p3-sunflowers-london-d.jpg",
-  "zoom": "assets/img/p3-sunflowers-london-d.jpg",
   "w": 1400,
   "h": 1780,
-  "bytes": 941076
+  "bytes": 95053
  },
  "p3-sunflowers-munich": {
   "thumb": "assets/img/p3-sunflowers-munich-t.jpg",
-  "detail": "assets/img/p3-sunflowers-munich-d.jpg",
-  "zoom": "assets/img/p3-sunflowers-munich-d.jpg",
   "w": 1400,
   "h": 1700,
-  "bytes": 719376
+  "bytes": 103436
  },
  "p3-sunflowers-amsterdam": {
   "thumb": "assets/img/p3-sunflowers-amsterdam-t.jpg",
-  "detail": "assets/img/p3-sunflowers-amsterdam-d.jpg",
-  "zoom": "assets/img/p3-sunflowers-amsterdam-d.jpg",
   "w": 1373,
   "h": 1800,
-  "bytes": 1032576
+  "bytes": 103601
  },
  "p3-night-cafe": {
   "thumb": "assets/img/p3-night-cafe-t.jpg",
-  "detail": "assets/img/p3-night-cafe-d.jpg",
-  "zoom": "assets/img/p3-night-cafe-d.jpg",
   "w": 1400,
   "h": 1105,
-  "bytes": 559495
+  "bytes": 71370
  },
  "p3-cafe-terrace": {
   "thumb": "assets/img/p3-cafe-terrace-t.jpg",
-  "detail": "assets/img/p3-cafe-terrace-d.jpg",
-  "zoom": "assets/img/p3-cafe-terrace-d.jpg",
-  "w": 1371,
-  "h": 1800,
-  "bytes": 869136
+  "w": 1400,
+  "h": 1746,
+  "bytes": 111128
  },
  "p3-yellow-house": {
   "thumb": "assets/img/p3-yellow-house-t.jpg",
-  "detail": "assets/img/p3-yellow-house-d.jpg",
-  "zoom": "assets/img/p3-yellow-house-d.jpg",
   "w": 1400,
   "h": 1097,
-  "bytes": 555079
+  "bytes": 61664
  },
  "p3-bedroom": {
   "thumb": "assets/img/p3-bedroom-t.jpg",
-  "detail": "assets/img/p3-bedroom-d.jpg",
-  "zoom": "assets/img/p3-bedroom-d.jpg",
   "w": 1400,
   "h": 1111,
-  "bytes": 556145
+  "bytes": 63480
  },
  "p3-rhone": {
   "thumb": "assets/img/p3-rhone-t.jpg",
-  "detail": "assets/img/p3-rhone-d.jpg",
-  "zoom": "assets/img/p3-rhone-d.jpg",
   "w": 1400,
   "h": 1085,
-  "bytes": 877132
+  "bytes": 88442
  },
  "p3-bandaged-ear": {
   "thumb": "assets/img/p3-bandaged-ear-t.jpg",
-  "detail": "assets/img/p3-bandaged-ear-d.jpg",
-  "zoom": "assets/img/p3-bandaged-ear-d.jpg",
   "w": 1400,
   "h": 1701,
-  "bytes": 874185
+  "bytes": 103161
  },
  "p3-boch": {
   "thumb": "assets/img/p3-boch-t.jpg",
-  "detail": "assets/img/p3-boch-d.jpg",
-  "zoom": "assets/img/p3-boch-d.jpg",
   "w": 1309,
   "h": 1800,
-  "bytes": 821625
+  "bytes": 99598
  },
  "p3-ginoux": {
   "thumb": "assets/img/p3-ginoux-t.jpg",
-  "detail": "assets/img/p3-ginoux-d.jpg",
-  "zoom": "assets/img/p3-ginoux-d.jpg",
   "w": 1400,
   "h": 1763,
-  "bytes": 882127
+  "bytes": 89101
  },
  "p3-roulin": {
   "thumb": "assets/img/p3-roulin-t.jpg",
-  "detail": "assets/img/p3-roulin-d.jpg",
-  "zoom": "assets/img/p3-roulin-d.jpg",
   "w": 1400,
   "h": 1654,
-  "bytes": 1048739
+  "bytes": 120177
  },
  "p3-berceuse": {
   "thumb": "assets/img/p3-berceuse-t.jpg",
-  "detail": "assets/img/p3-berceuse-d.jpg",
-  "zoom": "assets/img/p3-berceuse-d.jpg",
   "w": 1400,
   "h": 1757,
-  "bytes": 868524
+  "bytes": 106376
  },
  "p3-zouave": {
   "thumb": "assets/img/p3-zouave-t.jpg",
-  "detail": "assets/img/p3-zouave-d.jpg",
-  "zoom": "assets/img/p3-zouave-d.jpg",
   "w": 1400,
   "h": 1673,
-  "bytes": 683469
+  "bytes": 82300
  },
  "p3-sower": {
   "thumb": "assets/img/p3-sower-t.jpg",
-  "detail": "assets/img/p3-sower-d.jpg",
-  "zoom": "assets/img/p3-sower-d.jpg",
   "w": 1400,
   "h": 1125,
-  "bytes": 675988
+  "bytes": 77103
  },
  "p3-harvest": {
   "thumb": "assets/img/p3-harvest-t.jpg",
-  "detail": "assets/img/p3-harvest-d.jpg",
-  "zoom": "assets/img/p3-harvest-d.jpg",
   "w": 1400,
   "h": 1106,
-  "bytes": 662320
+  "bytes": 73881
  },
  "p3-farmhouse": {
   "thumb": "assets/img/p3-farmhouse-t.jpg",
-  "detail": "assets/img/p3-farmhouse-d.jpg",
-  "zoom": "assets/img/p3-farmhouse-d.jpg",
   "w": 1400,
   "h": 1056,
-  "bytes": 689177
+  "bytes": 81480
  },
  "p3-poet-garden": {
   "thumb": "assets/img/p3-poet-garden-t.jpg",
-  "detail": "assets/img/p3-poet-garden-d.jpg",
-  "zoom": "assets/img/p3-poet-garden-d.jpg",
   "w": 1400,
   "h": 1112,
-  "bytes": 696712
+  "bytes": 72014
  },
  "p3-peach-trees": {
   "thumb": "assets/img/p3-peach-trees-t.jpg",
-  "detail": "assets/img/p3-peach-trees-d.jpg",
-  "zoom": "assets/img/p3-peach-trees-d.jpg",
   "w": 1400,
   "h": 1721,
-  "bytes": 1328465
+  "bytes": 148281
  },
  "p3-white-orchard": {
   "thumb": "assets/img/p3-white-orchard-t.jpg",
-  "detail": "assets/img/p3-white-orchard-d.jpg",
-  "zoom": "assets/img/p3-white-orchard-d.jpg",
   "w": 1400,
   "h": 1032,
-  "bytes": 736188
+  "bytes": 88677
  },
  "p3-orchard-cypresses": {
   "thumb": "assets/img/p3-orchard-cypresses-t.jpg",
-  "detail": "assets/img/p3-orchard-cypresses-d.jpg",
-  "zoom": "assets/img/p3-orchard-cypresses-d.jpg",
   "w": 1400,
   "h": 1133,
-  "bytes": 674144
+  "bytes": 83653
  },
  "p3-langlois": {
   "thumb": "assets/img/p3-langlois-t.jpg",
-  "detail": "assets/img/p3-langlois-d.jpg",
-  "zoom": "assets/img/p3-langlois-d.jpg",
   "w": 1400,
   "h": 1142,
-  "bytes": 764079
+  "bytes": 85361
  },
  "p3-red-vineyard": {
   "thumb": "assets/img/p3-red-vineyard-t.jpg",
-  "detail": "assets/img/p3-red-vineyard-d.jpg",
-  "zoom": "assets/img/p3-red-vineyard-d.jpg",
   "w": 1400,
   "h": 1091,
-  "bytes": 944654
+  "bytes": 99155
  },
  "p3-etten-garden": {
   "thumb": "assets/img/p3-etten-garden-t.jpg",
-  "detail": "assets/img/p3-etten-garden-d.jpg",
-  "zoom": "assets/img/p3-etten-garden-d.jpg",
   "w": 1400,
   "h": 1099,
-  "bytes": 805146
+  "bytes": 102480
  },
  "p3-dance-hall": {
   "thumb": "assets/img/p3-dance-hall-t.jpg",
-  "detail": "assets/img/p3-dance-hall-d.jpg",
-  "zoom": "assets/img/p3-dance-hall-d.jpg",
   "w": 1400,
   "h": 1123,
-  "bytes": 625069
+  "bytes": 76771
  },
  "p3-vangogh-chair": {
   "thumb": "assets/img/p3-vangogh-chair-t.jpg",
-  "detail": "assets/img/p3-vangogh-chair-d.jpg",
-  "zoom": "assets/img/p3-vangogh-chair-d.jpg",
   "w": 1385,
   "h": 1800,
-  "bytes": 845373
+  "bytes": 101986
  },
  "p3-gauguin-chair": {
   "thumb": "assets/img/p3-gauguin-chair-t.jpg",
-  "detail": "assets/img/p3-gauguin-chair-d.jpg",
-  "zoom": "assets/img/p3-gauguin-chair-d.jpg",
   "w": 1400,
   "h": 1749,
-  "bytes": 869636
+  "bytes": 99072
  },
  "p3-snow": {
   "thumb": "assets/img/p3-snow-t.jpg",
-  "detail": "assets/img/p3-snow-d.jpg",
-  "zoom": "assets/img/p3-snow-d.jpg",
   "w": 1400,
   "h": 1139,
-  "bytes": 489287
+  "bytes": 78252
  },
  "p3-oleanders": {
   "thumb": "assets/img/p3-oleanders-t.jpg",
@@ -417,43 +317,34 @@
  },
  "p3-fishing-boats": {
   "thumb": "assets/img/p3-fishing-boats-t.jpg",
-  "detail": "assets/img/p3-fishing-boats-d.jpg",
-  "zoom": "assets/img/p3-fishing-boats-d.jpg",
   "w": 1400,
   "h": 1114,
-  "bytes": 512688
+  "bytes": 58524
  },
  "p3-alyscamps": {
   "thumb": "assets/img/p3-alyscamps-t.jpg",
-  "detail": "assets/img/p3-alyscamps-d.jpg",
-  "zoom": "assets/img/p3-alyscamps-d.jpg",
   "w": 1376,
   "h": 1800,
-  "bytes": 1351097
+  "bytes": 147313
  },
  "p3-self-gauguin": {
   "thumb": "assets/img/p3-self-gauguin-t.jpg",
-  "detail": "assets/img/p3-self-gauguin-d.jpg",
-  "zoom": "assets/img/p3-self-gauguin-d.jpg",
   "w": 1400,
   "h": 1710,
-  "bytes": 848794
+  "bytes": 92603
  },
  "p4-starry-night": {
   "thumb": "assets/img/p4-starry-night-t.jpg",
-  "detail": "assets/img/p4-starry-night-d.jpg",
-  "zoom": "assets/img/p4-starry-night-d.jpg",
-  "w": 1400,
-  "h": 1109,
-  "bytes": 691828
+  "w": 960,
+  "h": 760,
+  "bytes": 86310,
+  "detail": "assets/img/p4-starry-night-d.jpg"
  },
  "p4-irises": {
   "thumb": "assets/img/p4-irises-t.jpg",
-  "detail": "assets/img/p4-irises-d.jpg",
-  "zoom": "assets/img/p4-irises-d.jpg",
   "w": 1400,
   "h": 1772,
-  "bytes": 1117255
+  "bytes": 130404
  },
  "p4-wf-cypresses": {
   "thumb": "assets/img/p4-wf-cypresses-t.jpg",
@@ -473,19 +364,15 @@
  },
  "p4-self-orsay-89": {
   "thumb": "assets/img/p4-self-orsay-89-t.jpg",
-  "detail": "assets/img/p4-self-orsay-89-d.jpg",
-  "zoom": "assets/img/p4-self-orsay-89-d.jpg",
   "w": 1400,
   "h": 1702,
-  "bytes": 852747
+  "bytes": 100412
  },
  "p4-self-nga-89": {
   "thumb": "assets/img/p4-self-nga-89-t.jpg",
-  "detail": "assets/img/p4-self-nga-89-d.jpg",
-  "zoom": "assets/img/p4-self-nga-89-d.jpg",
-  "w": 1388,
-  "h": 1800,
-  "bytes": 1150724
+  "w": 1387,
+  "h": 1799,
+  "bytes": 129244
  },
  "p4-olive-trees": {
   "thumb": "assets/img/p4-olive-trees-t.jpg",
@@ -497,43 +384,33 @@
  },
  "p4-mulberry": {
   "thumb": "assets/img/p4-mulberry-t.jpg",
-  "detail": "assets/img/p4-mulberry-d.jpg",
-  "zoom": "assets/img/p4-mulberry-d.jpg",
   "w": 1400,
   "h": 1157,
-  "bytes": 622311
+  "bytes": 99125
  },
  "p4-peacock-moth": {
   "thumb": "assets/img/p4-peacock-moth-t.jpg",
-  "detail": "assets/img/p4-peacock-moth-d.jpg",
-  "zoom": "assets/img/p4-peacock-moth-d.jpg",
   "w": 1319,
-  "h": 1800,
-  "bytes": 1031785
+  "h": 1801,
+  "bytes": 128697
  },
  "p4-pieta": {
   "thumb": "assets/img/p4-pieta-t.jpg",
-  "detail": "assets/img/p4-pieta-d.jpg",
-  "zoom": "assets/img/p4-pieta-d.jpg",
   "w": 1400,
   "h": 1705,
-  "bytes": 947645
+  "bytes": 111365
  },
  "p4-good-samaritan": {
   "thumb": "assets/img/p4-good-samaritan-t.jpg",
-  "detail": "assets/img/p4-good-samaritan-d.jpg",
-  "zoom": "assets/img/p4-good-samaritan-d.jpg",
   "w": 1373,
   "h": 1800,
-  "bytes": 1155930
+  "bytes": 154667
  },
  "p4-prisoners": {
   "thumb": "assets/img/p4-prisoners-t.jpg",
-  "detail": "assets/img/p4-prisoners-d.jpg",
-  "zoom": "assets/img/p4-prisoners-d.jpg",
   "w": 1400,
   "h": 1783,
-  "bytes": 912755
+  "bytes": 135139
  },
  "p4-first-steps": {
   "thumb": "assets/img/p4-first-steps-t.jpg",
@@ -545,202 +422,152 @@
  },
  "p4-long-grass": {
   "thumb": "assets/img/p4-long-grass-t.jpg",
-  "detail": "assets/img/p4-long-grass-d.jpg",
-  "zoom": "assets/img/p4-long-grass-d.jpg",
   "w": 1400,
   "h": 1108,
-  "bytes": 779960
+  "bytes": 96408
  },
  "p4-butterflies-poppies": {
   "thumb": "assets/img/p4-butterflies-poppies-t.jpg",
-  "detail": "assets/img/p4-butterflies-poppies-d.jpg",
-  "zoom": "assets/img/p4-butterflies-poppies-d.jpg",
   "w": 1333,
   "h": 1800,
-  "bytes": 1097788
+  "bytes": 132352
  },
  "p4-eternity-gate": {
   "thumb": "assets/img/p4-eternity-gate-t.jpg",
-  "detail": "assets/img/p4-eternity-gate-d.jpg",
-  "zoom": "assets/img/p4-eternity-gate-d.jpg",
   "w": 1400,
   "h": 1766,
-  "bytes": 408473
+  "bytes": 72420
  },
  "p4-lazarus": {
   "thumb": "assets/img/p4-lazarus-t.jpg",
-  "detail": "assets/img/p4-lazarus-d.jpg",
-  "zoom": "assets/img/p4-lazarus-d.jpg",
   "w": 1400,
   "h": 1071,
-  "bytes": 632090
+  "bytes": 72647
  },
  "p4-ginoux-rome": {
   "thumb": "assets/img/p4-ginoux-rome-t.jpg",
-  "detail": "assets/img/p4-ginoux-rome-d.jpg",
-  "zoom": "assets/img/p4-ginoux-rome-d.jpg",
   "w": 1400,
   "h": 1689,
-  "bytes": 845643
+  "bytes": 100727
  },
  "p4-almond-blossom": {
   "thumb": "assets/img/p4-almond-blossom-t.jpg",
-  "detail": "assets/img/p4-almond-blossom-d.jpg",
-  "zoom": "assets/img/p4-almond-blossom-d.jpg",
   "w": 1400,
   "h": 1106,
-  "bytes": 516340
+  "bytes": 66842
  },
  "p4-st-paul-garden": {
   "thumb": "assets/img/p4-st-paul-garden-t.jpg",
-  "detail": "assets/img/p4-st-paul-garden-d.jpg",
-  "zoom": "assets/img/p4-st-paul-garden-d.jpg",
   "w": 1400,
   "h": 1108,
-  "bytes": 676643
+  "bytes": 85729
  },
  "p4-binding-sheaves": {
   "thumb": "assets/img/p4-binding-sheaves-t.jpg",
-  "detail": "assets/img/p4-binding-sheaves-d.jpg",
-  "zoom": "assets/img/p4-binding-sheaves-d.jpg",
   "w": 1362,
   "h": 1800,
-  "bytes": 908140
+  "bytes": 104237
  },
  "p4-sower-millet": {
   "thumb": "assets/img/p4-sower-millet-t.jpg",
-  "detail": "assets/img/p4-sower-millet-d.jpg",
-  "zoom": "assets/img/p4-sower-millet-d.jpg",
   "w": 1400,
   "h": 1661,
-  "bytes": 1336899
+  "bytes": 144801
  },
  "p5-crows": {
   "thumb": "assets/img/p5-crows-t.jpg",
-  "detail": "assets/img/p5-crows-d.jpg",
-  "zoom": "assets/img/p5-crows-d.jpg",
   "w": 1400,
   "h": 671,
-  "bytes": 441522
+  "bytes": 56857
  },
  "p5-gachet-1": {
   "thumb": "assets/img/p5-gachet-1-t.jpg",
-  "detail": "assets/img/p5-gachet-1-d.jpg",
-  "zoom": "assets/img/p5-gachet-1-d.jpg",
-  "w": 1367,
-  "h": 1800,
-  "bytes": 977581
+  "w": 1366,
+  "h": 1799,
+  "bytes": 151325
  },
  "p5-gachet-2": {
   "thumb": "assets/img/p5-gachet-2-t.jpg",
-  "detail": "assets/img/p5-gachet-2-d.jpg",
-  "zoom": "assets/img/p5-gachet-2-d.jpg",
   "w": 1400,
   "h": 1684,
-  "bytes": 919934
+  "bytes": 104051
  },
  "p5-church": {
   "thumb": "assets/img/p5-church-t.jpg",
-  "detail": "assets/img/p5-church-d.jpg",
-  "zoom": "assets/img/p5-church-d.jpg",
-  "w": 1395,
+  "w": 1394,
   "h": 1800,
-  "bytes": 994048
+  "bytes": 130954
  },
  "p5-houses-toledo": {
   "thumb": "assets/img/p5-houses-toledo-t.jpg",
-  "detail": "assets/img/p5-houses-toledo-d.jpg",
-  "zoom": "assets/img/p5-houses-toledo-d.jpg",
   "w": 1400,
   "h": 1130,
-  "bytes": 626095
+  "bytes": 87239
  },
  "p5-cordeville": {
   "thumb": "assets/img/p5-cordeville-t.jpg",
-  "detail": "assets/img/p5-cordeville-d.jpg",
-  "zoom": "assets/img/p5-cordeville-d.jpg",
   "w": 1400,
   "h": 1107,
-  "bytes": 681305
+  "bytes": 84218
  },
  "p5-white-house-night": {
   "thumb": "assets/img/p5-white-house-night-t.jpg",
-  "detail": "assets/img/p5-white-house-night-d.jpg",
-  "zoom": "assets/img/p5-white-house-night-d.jpg",
   "w": 1400,
   "h": 1162,
-  "bytes": 703043
+  "bytes": 91965
  },
  "p5-adeline": {
   "thumb": "assets/img/p5-adeline-t.jpg",
-  "detail": "assets/img/p5-adeline-d.jpg",
-  "zoom": "assets/img/p5-adeline-d.jpg",
   "w": 1400,
   "h": 1396,
-  "bytes": 759720
+  "bytes": 88444
  },
  "p5-gachet-garden": {
   "thumb": "assets/img/p5-gachet-garden-t.jpg",
-  "detail": "assets/img/p5-gachet-garden-d.jpg",
-  "zoom": "assets/img/p5-gachet-garden-d.jpg",
   "w": 1231,
   "h": 1800,
-  "bytes": 499126
+  "bytes": 137539
  },
  "p5-thunderclouds": {
   "thumb": "assets/img/p5-thunderclouds-t.jpg",
-  "detail": "assets/img/p5-thunderclouds-d.jpg",
-  "zoom": "assets/img/p5-thunderclouds-d.jpg",
   "w": 1400,
   "h": 687,
-  "bytes": 333146
+  "bytes": 40695
  },
  "p5-tree-roots": {
   "thumb": "assets/img/p5-tree-roots-t.jpg",
-  "detail": "assets/img/p5-tree-roots-d.jpg",
-  "zoom": "assets/img/p5-tree-roots-d.jpg",
   "w": 1400,
   "h": 688,
-  "bytes": 484127
+  "bytes": 63608
  },
  "p5-daisies-poppies": {
   "thumb": "assets/img/p5-daisies-poppies-t.jpg",
-  "detail": "assets/img/p5-daisies-poppies-d.jpg",
-  "zoom": "assets/img/p5-daisies-poppies-d.jpg",
   "w": 1368,
   "h": 1800,
-  "bytes": 761005
+  "bytes": 126230
  },
  "p5-marguerite": {
   "thumb": "assets/img/p5-marguerite-t.jpg",
-  "detail": "assets/img/p5-marguerite-d.jpg",
-  "zoom": "assets/img/p5-marguerite-d.jpg",
   "w": 857,
-  "h": 1800,
-  "bytes": 660798
+  "h": 1799,
+  "bytes": 225717
  },
  "p5-twilight": {
   "thumb": "assets/img/p5-twilight-t.jpg",
-  "detail": "assets/img/p5-twilight-d.jpg",
-  "zoom": "assets/img/p5-twilight-d.jpg",
   "w": 1400,
   "h": 686,
-  "bytes": 434020
+  "bytes": 57212
  },
  "p5-sheaves": {
   "thumb": "assets/img/p5-sheaves-t.jpg",
-  "detail": "assets/img/p5-sheaves-d.jpg",
-  "zoom": "assets/img/p5-sheaves-d.jpg",
   "w": 1400,
   "h": 690,
-  "bytes": 423547
+  "bytes": 52612
  },
  "p1-cabbage-clogs": {
   "thumb": "assets/img/p1-cabbage-clogs-t.jpg",
-  "detail": "assets/img/p1-cabbage-clogs-d.jpg",
-  "zoom": "assets/img/p1-cabbage-clogs-d.jpg",
-  "w": 1280,
-  "h": 795,
-  "bytes": 168309
+  "w": 1400,
+  "h": 870,
+  "bytes": 46402
  }
 }

@@ -115,7 +115,7 @@
             '</div>' +
           '</div>' +
           '<figure class="hero-fig reveal">' +
-            '<div class="frame"><img src="' + heroWork.img.detail + '" alt="' + esc(heroWork.zh) + '" decoding="async" fetchpriority="high"></div>' +
+            '<div class="frame"><img src="' + (heroWork.img.hero || heroWork.img.detail) + '" alt="' + esc(heroWork.zh) + '" decoding="async" fetchpriority="high"></div>' +
             '<figcaption>' + esc(heroWork.zh) + ' · ' + esc(heroWork.date) + ' · ' + esc(heroWork.location) + '</figcaption>' +
           '</figure>' +
         '</div>' +
@@ -141,6 +141,7 @@
     if (!p) { location.hash = '#/'; return; }
 
     var list = worksOf(pid);
+    var prev = VGM.periods.filter(function (x) { return x.id < p.id; }).pop();
     var next = VGM.periods.filter(function (x) { return x.id > p.id; })[0];
     var cards = list.map(function (w, i) {
       return '<a class="work-card reveal" style="--i:' + (i > 8 ? 8 : i) + '" href="#/work/' + w.id + '">' +
@@ -163,6 +164,13 @@
         '<div class="en">' + esc(p.en) + '</div>' +
         '<div class="meta-line"><span><b>' + esc(p.years) + '</b></span><span>' + esc(p.places) + '</span><span>' + p.count + ' 件作品</span></div>' +
       '</section>' +
+
+      (prev || next
+        ? '<nav class="period-switch">' +
+            (prev ? '<a class="btn" href="#/period/' + prev.id + '"><span class="dir">← 上一展厅</span><span class="name">' + esc(prev.title) + '</span></a>' : '') +
+            (next ? '<a class="btn next" href="#/period/' + next.id + '"><span class="dir">下一展厅 →</span><span class="name">' + esc(next.title) + '</span></a>' : '') +
+          '</nav>'
+        : '') +
 
       '<section class="preface">' +
         '<h2>序 · PREFACE</h2>' +

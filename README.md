@@ -16,7 +16,7 @@
 - **三语信息** —— 中英文标题、F 编号（De la Faille）与 JH 编号（Hulsker）编目体系
 - **馆藏索引** —— 覆盖梵高博物馆、奥赛、大都会、MoMA、英国国家美术馆等 24 家机构的馆藏信息
 - **全文检索** —— 可按作品名、馆藏地、时期即时检索
-- **图片本地化** —— 全部图像随站点一同部署，零外部图床依赖，离线可用
+- **混合图源** —— 缩略图随站点一同分发（网格页秒开），高清大图由 Wikimedia Commons 直供，兼顾清晰度与加载速度
 - **响应式** —— 桌面端与手机端分别优化，支持灯箱放大查看细节
 - **轻量动效** —— 淡入与滚动揭示，并遵循 `prefers-reduced-motion` 无障碍设置
 
@@ -50,7 +50,7 @@ vangogh-museum/
 │   ├── images.json         # 每件作品的图像来源
 │   ├── interp.json         # 创作背景与赏析文本
 │   └── local-images.json   # 本地化图像清单（构建生成）
-├── assets/img/             # 本地化图像（缩略图 *-t.jpg / 详图 *-d.jpg）
+├── assets/img/             # 本地缩略图 *-t.jpg；另存 7 张高清图（6 件大都会作品 + 首页首屏《星月夜》）
 └── tools/
     ├── build.js            # content/* → js/data.js
     └── fetch-images.js     # 下载图像到 assets/img/
@@ -78,7 +78,8 @@ node tools/build.js          # content/*.json  →  js/data.js
 node tools/fetch-images.js   # 下载图像 → assets/img/ + content/local-images.json
 ```
 
-- `build.js` 采用**本地图像优先、远端回退**策略：优先读取 `content/local-images.json` 中的本地路径与真实宽高，缺失时才回退到远端 URL。因此迁移或扩容时无需改动前端。
+- `build.js` 采用**缩略图本地 + 高清图远端**策略：`content/local-images.json` 里的缩略图随站点分发；作品页、灯箱所需的大图由 Wikimedia Commons 的 `thumb.php` 直供，按展示位反推尺寸（首页首屏 ≈960、作品页 ≈1280、灯箱 ≈1920），且只取 Commons 的**常见缩略图尺寸**（非该白名单的宽度会返回 400）。仓库因此只需保存缩略图，音量由 74 MB 降至 12 MB。
+- 如需重新把全部图像本地化（例如要完全离线），运行 `node tools/fetch-images.js`，它会补回 `assets/img/*-d.jpg` 并把 `local-images.json` 的 `detail`/`zoom` 指向本地文件。
 - 作品 `id` 是 `images.json` / `interp.json` 的键，**不可随意变更**，否则会丢失对应的图像与文本关联。
 
 ## 图像来源与版权
