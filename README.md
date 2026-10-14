@@ -89,6 +89,17 @@ node tools/fetch-images.js   # 下载图像 → assets/img/ + content/local-imag
 - **免责说明**：作品年代与馆藏信息以各收藏机构官方数据为准，本站内容仅作欣赏与学习之用。
 - 本站为**非商业性教育项目**，不对图像主张任何权利。
 
+## 部署
+
+本站为纯静态站点（无构建依赖、无后端服务），可直接部署到 GitHub Pages：
+
+1. 进入仓库 **Settings → Pages**
+2. **Source** 选择 `Deploy from a branch`
+3. **Branch** 选择 `main`，目录选择 `/ (root)`
+4. 点击 **Save**，等待 1–2 分钟完成首次构建
+
+访问地址形如 `https://<用户名>.github.io/van-gogh-museum/`。
+
 站点使用相对路径与 hash 路由，部署在 `/van-gogh-museum/` 子目录下无需任何额外配置。
 
 ---
