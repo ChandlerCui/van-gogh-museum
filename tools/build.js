@@ -89,11 +89,19 @@ for (const w of manifest.works) {
       h: im.h || 1000,
     };
   } else {
-    img = {
-      thumb: thumbUrl(im.file, 480),
-      detail: detailUrl(im, 1280),
+    /* TIFF 走 thumb.php 一律 400，故 images.json 为这类条目直接给出
+       thumb.wikimedia.org 的显式缩略图 URL；其余仍按白名单宽度直出 */
+    const base = im.urls || {
+      thumb: thumbUrl(im.file, 500),
       hero: detailUrl(im, 960),
+      detail: detailUrl(im, 1280),
       zoom: detailUrl(im, 1920),
+    };
+    img = {
+      thumb: base.thumb,
+      detail: base.detail,
+      hero: base.hero,
+      zoom: base.zoom,
       credit: CREDIT_COMMONS,
       w: im.w || 4,
       h: im.h || 3,
@@ -140,7 +148,7 @@ for (const w of works) {
   for (const k of ['hero', 'detail', 'zoom']) {
     const u = w.img[k];
     if (u.indexOf('http') !== 0) continue;
-    const m = /[?&]width=(\d+)/.exec(u);
+    const m = /[?&]width=(\d+)/.exec(u) || /lossy-page1-(\d+)px-/.exec(u);
     if (!m || whitelist.indexOf(Number(m[1])) < 0) outOfList.push(w.id + ' ' + k + ' → ' + u);
   }
 }

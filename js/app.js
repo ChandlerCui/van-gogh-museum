@@ -104,9 +104,9 @@
     view.innerHTML =
       '<section class="hero">' +
         '<div class="hero-grid">' +
-          '<div>' +
+          '<div class="hero-copy">' +
             '<div class="kicker">ONLINE MUSEUM · 线上博物馆</div>' +
-            '<h1>梵高的<br>十年与七个展厅</h1>' +
+            '<h1>梵高的<br><em>十年</em>与七个展厅</h1>' +
             '<p class="lead">从二十七岁在矿区拿起铅笔，到三十七岁倒在奥维尔的麦田边——文森特·梵高的创作生涯只有十年，却辗转七处居所，换了七种颜色。本馆按时间顺序将其分为七个时期，每章一篇序，每件作品皆有创作背景与赏析。</p>' +
             '<blockquote class="hero-quote">我想用作品打动人。我想让他们说：这个人感受得很深，这个人爱得很深。<small>—— 文森特·梵高，1880年7月，致提奥的信</small></blockquote>' +
             '<div class="hero-actions">' +
@@ -116,8 +116,13 @@
           '</div>' +
           '<figure class="hero-fig reveal">' +
             '<div class="frame"><img src="' + (heroWork.img.hero || heroWork.img.detail) + '" alt="' + esc(heroWork.zh) + '" decoding="async" fetchpriority="high"></div>' +
-            '<figcaption>' + esc(heroWork.zh) + ' · ' + esc(heroWork.date) + ' · ' + esc(heroWork.location) + '</figcaption>' +
+            '<figcaption><span class="fig-index">FIG. 01</span><span>' + esc(heroWork.zh) + ' · ' + esc(heroWork.date) + ' · ' + esc(heroWork.location) + '</span></figcaption>' +
           '</figure>' +
+        '</div>' +
+        '<div class="hero-meta">' +
+          '<div class="stat"><b>' + total + '</b><span>件作品 · WORKS</span></div>' +
+          '<div class="stat"><b>' + pad(total2) + '</b><span>个展厅 · CHAPTERS</span></div>' +
+          '<div class="stat"><b>1880—1890</b><span>创作生涯 · YEARS</span></div>' +
         '</div>' +
       '</section>' +
 
@@ -149,7 +154,9 @@
           '<img src="' + w.img.thumb + '" alt="' + esc(w.zh) + '" loading="lazy" decoding="async">' +
         '</figure>' +
         '<div class="work-card-body">' +
-          (w.featured ? '<span class="tag-featured">馆藏代表作</span>' : '') +
+          '<div class="work-card-line"><span class="work-index">NO. ' + pad(i + 1) + '</span>' +
+            (w.featured ? '<span class="tag-featured">馆藏代表作</span>' : '') +
+          '</div>' +
           '<h3>' + esc(w.zh) + '</h3>' +
           '<p class="work-card-en">' + esc(w.en) + '</p>' +
           '<p class="work-card-meta">' + esc(w.date) + ' · ' + esc(w.location) + '</p>' +
@@ -364,11 +371,18 @@
   window.addEventListener('hashchange', route);
   route();
 
-  /* ———— 顶栏滚动态 ———— */
+  /* ———— 顶栏滚动态与阅读进度 ———— */
   var siteHeader = document.querySelector('.site-header');
+  var scrollProgress = document.querySelector('.scroll-progress');
   function onScroll() {
     if (siteHeader) siteHeader.classList.toggle('scrolled', window.scrollY > 8);
+    if (scrollProgress) {
+      var range = document.documentElement.scrollHeight - window.innerHeight;
+      var ratio = range > 0 ? window.scrollY / range : 0;
+      document.documentElement.style.setProperty('--progress', Math.min(1, Math.max(0, ratio)).toFixed(4));
+    }
   }
   window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll, { passive: true });
   onScroll();
 })();
