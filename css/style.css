@@ -1,8 +1,9 @@
 /* ============================================================
    梵高线上博物馆 · 样式
-   设计方向：编辑型个人网站风格 —— 宋体大标题、暖纸底色、
-   细线分隔、克制的留白与动效；正文以衬线阅读为主，
-   编号、年份、馆藏等元信息使用字距拉开的小号无衬线。
+   设计方向：编辑型个人网站风格 —— 暖纸底色、细线分隔、
+   克制的留白与动效。
+   字体：西文 Century Gothic，中文微软雅黑；全站统一使用
+   这一组无衬线字体，不使用宋体与 Times New Roman。
    ============================================================ */
 
 :root {
@@ -17,8 +18,15 @@
   --gold: #a2721f;
   --gold-deep: #86591a;
   --footer-bg: #16130f;
-  --serif: "Songti SC", "STSong", "Source Han Serif SC", "Noto Serif SC", "Noto Serif CJK SC", "SimSun", Georgia, "Times New Roman", serif;
-  --sans: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  /* 西文在前、中文在后：Century Gothic 覆盖拉丁字形，
+     缺失时逐级降级到同为几何无衬线的 Futura / Trebuchet MS，
+     中日韩字符则由微软雅黑等中文字体接管 */
+  --font: "Century Gothic", "CenturyGothic", "Century Gothic Pro",
+    "URW Gothic L", "URW Gothic", "Avenir Next", Futura, "Trebuchet MS",
+    "Microsoft YaHei", "微软雅黑", "PingFang SC", "Hiragino Sans GB",
+    "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  --serif: var(--font);
+  --sans: var(--font);
   --shadow-soft: 0 18px 60px rgba(23, 20, 15, 0.12);
   --ease: cubic-bezier(.22, .61, .36, 1);
 }
