@@ -106,7 +106,7 @@
         '<div class="hero-grid">' +
           '<div class="hero-copy">' +
             '<div class="kicker">ONLINE MUSEUM · 线上博物馆</div>' +
-            '<h1>梵高的<br><em>十年</em>与七个展厅</h1>' +
+            '<h1>梵高的<em>十年</em><br>与七个展厅</h1>' +
             '<p class="lead">从二十七岁在矿区拿起铅笔，到三十七岁倒在奥维尔的麦田边——文森特·梵高的创作生涯只有十年，却辗转七处居所，换了七种颜色。本馆按时间顺序将其分为七个时期，每章一篇序，每件作品皆有创作背景与赏析。</p>' +
             '<blockquote class="hero-quote">我想用作品打动人。我想让他们说：这个人感受得很深，这个人爱得很深。<small>—— 文森特·梵高，1880年7月，致提奥的信</small></blockquote>' +
             '<div class="hero-actions">' +
@@ -150,7 +150,7 @@
     var next = VGM.periods.filter(function (x) { return x.id > p.id; })[0];
     var cards = list.map(function (w, i) {
       return '<a class="work-card reveal" style="--i:' + (i > 8 ? 8 : i) + '" href="#/work/' + w.id + '">' +
-        '<figure class="work-card-fig" style="aspect-ratio:' + (w.img.w / w.img.h).toFixed(4) + '">' +
+        '<figure class="work-card-fig">' +
           '<img src="' + w.img.thumb + '" alt="' + esc(w.zh) + '" loading="lazy" decoding="async">' +
         '</figure>' +
         '<div class="work-card-body">' +
@@ -272,7 +272,7 @@
     var cards = hits.map(function (w) {
       var p = byPeriod[w.period];
       return '<a class="work-card reveal" href="#/work/' + w.id + '">' +
-        '<figure class="work-card-fig" style="aspect-ratio:' + (w.img.w / w.img.h).toFixed(4) + '">' +
+        '<figure class="work-card-fig">' +
           '<img src="' + w.img.thumb + '" alt="' + esc(w.zh) + '" loading="lazy" decoding="async">' +
         '</figure>' +
         '<div class="work-card-body">' +

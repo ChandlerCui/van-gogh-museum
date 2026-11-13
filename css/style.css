@@ -47,6 +47,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* 断行控制：标题均衡分行，正文避免末行只剩一两个字 */
+h1, h2, h3, .chapter-title, .section-title, .timeline-title { text-wrap: balance; }
+p, .work-card-en, .work-card-meta { text-wrap: pretty; }
+
 img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
 button { font-family: inherit; cursor: pointer; }
@@ -142,7 +146,7 @@ button { font-family: inherit; cursor: pointer; }
   display: flex; align-items: flex-end; justify-content: space-between; gap: 20px;
   margin-bottom: 46px; padding-bottom: 16px; border-bottom: 1px solid var(--line);
 }
-.section-title { font-size: clamp(24px, 2.4vw, 31px); font-weight: 600; letter-spacing: 0.05em; line-height: 1.3; }
+.section-title { font-size: clamp(23px, 2.2vw, 30px); font-weight: 600; letter-spacing: 0.03em; line-height: 1.35; text-wrap: balance; }
 .section-sub {
   font-family: var(--sans); font-size: 11px; color: var(--ink-3);
   letter-spacing: 0.18em; text-transform: uppercase; white-space: nowrap;
@@ -165,8 +169,11 @@ button { font-family: inherit; cursor: pointer; }
   gap: clamp(40px, 6vw, 88px); align-items: center;
 }
 .hero h1 {
-  font-size: clamp(44px, 6.6vw, 86px); font-weight: 600;
-  letter-spacing: 0.01em; line-height: 1.12; margin: 22px 0 26px;
+  font-size: clamp(40px, 5.6vw, 80px); font-weight: 600;
+  letter-spacing: 0.02em; line-height: 1.22; margin: 22px 0 26px;
+  /* 显式断行依据「梵高的十年 / 与七个展厅」的语义等分，
+     再配合 balance 兜住极端窄屏，避免末字孤行 */
+  text-wrap: balance;
 }
 .hero h1 em { font-style: normal; color: var(--gold-deep); }
 .hero .lead { font-size: 16.5px; color: var(--ink-2); max-width: 32em; line-height: 2; }
@@ -248,9 +255,11 @@ button { font-family: inherit; cursor: pointer; }
 .route-band .section-title { color: #f4efe3; }
 .route-band .section-sub { color: #958a71; }
 
-.timeline { display: flex; align-items: stretch; gap: 0; overflow-x: auto; padding-bottom: 6px; }
+/* 七个时期等分一列，避免横向滚动条与末列裁切；
+   窄屏改为四列两行，保持对齐而不出现原生滚动条 */
+.timeline { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 0; }
 .timeline-item {
-  flex: 1 1 0; min-width: 148px; padding: 22px 18px 20px; position: relative;
+  padding: 22px 16px 20px 0; position: relative;
   border-top: 1px solid rgba(242, 236, 223, 0.2);
   transition: border-color .3s ease, background .3s ease;
 }
@@ -312,12 +321,13 @@ button { font-family: inherit; cursor: pointer; }
 /* ————— 展厅页 ————— */
 .period-hero { padding: 76px 0 10px; position: relative; }
 .period-hero .num {
-  font-family: var(--serif); font-size: clamp(92px, 13vw, 180px); line-height: 0.84;
-  font-weight: 600; color: var(--accent); opacity: 0.9; letter-spacing: -0.02em;
+  font-family: var(--serif); font-size: clamp(76px, 10.5vw, 148px); line-height: 0.86;
+  font-weight: 600; color: var(--accent); opacity: 0.9; letter-spacing: -0.01em;
 }
 .period-hero h1 {
-  font-size: clamp(32px, 4.6vw, 54px); font-weight: 600;
-  letter-spacing: 0.04em; margin-top: 10px; line-height: 1.2;
+  font-size: clamp(30px, 3.6vw, 46px); font-weight: 600;
+  letter-spacing: 0.03em; margin-top: 10px; line-height: 1.3;
+  text-wrap: balance;
 }
 .period-hero .en {
   font-family: var(--sans); font-size: 11px; letter-spacing: 0.3em;
@@ -335,9 +345,9 @@ button { font-family: inherit; cursor: pointer; }
   font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.3em;
   color: var(--ink-3); margin-bottom: 26px; text-transform: uppercase;
 }
-.preface p { font-size: 17px; line-height: 2.05; color: var(--ink); margin-bottom: 22px; text-align: justify; }
+.preface p { font-size: 16.5px; line-height: 2; color: var(--ink); margin-bottom: 22px; text-align: justify; letter-spacing: 0.01em; text-wrap: pretty; }
 .preface-year {
-  float: left; font-size: 46px; line-height: 0.92; padding: 6px 14px 0 0;
+  float: left; font-size: 42px; line-height: 0.94; padding: 6px 14px 0 0;
   color: var(--gold); font-weight: 600; letter-spacing: 0.01em;
 }
 .preface-sign {
@@ -360,6 +370,7 @@ button { font-family: inherit; cursor: pointer; }
 .work-card { display: block; background: transparent; border: 0; }
 .work-card-fig {
   background: var(--mat); display: flex; align-items: center; justify-content: center;
+  aspect-ratio: 1 / 1;
   padding: 14px; cursor: zoom-in; overflow: hidden; border: 1px solid var(--line);
   transition: border-color .3s ease;
 }
@@ -426,8 +437,9 @@ button { font-family: inherit; cursor: pointer; }
 }
 .work-info .crumb a:hover { color: var(--gold-deep); }
 .work-info h1 {
-  font-size: clamp(30px, 3.8vw, 44px); font-weight: 600;
-  letter-spacing: 0.02em; margin: 16px 0 6px; line-height: 1.25;
+  font-size: clamp(27px, 3.2vw, 38px); font-weight: 600;
+  letter-spacing: 0.02em; margin: 16px 0 6px; line-height: 1.35;
+  text-wrap: balance;
 }
 .work-info .en { font-family: var(--sans); font-style: italic; font-size: 13.5px; color: var(--ink-3); }
 
@@ -545,6 +557,7 @@ button { font-family: inherit; cursor: pointer; }
   .work-fig { position: static; }
   .search-form input { width: 132px; }
   .search-form input:focus { width: 168px; }
+  .timeline { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 24px; }
 }
 
 /* ————— 响应式：手机 ————— */
@@ -555,7 +568,9 @@ button { font-family: inherit; cursor: pointer; }
   .period-nav {
     order: 3; flex: none; width: 100%;
     display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px;
-    justify-content: center; overflow: visible; padding-bottom: 2px;
+    justify-content: center; overflow: visible;
+    margin-top: 2px; padding-top: 8px;
+    border-top: 1px solid var(--line);
   }
   .period-nav a { text-align: center; white-space: nowrap; padding: 7px 2px; font-size: 12px; }
   .period-nav a::after { left: 6px; right: 6px; bottom: 0; }
@@ -580,7 +595,12 @@ button { font-family: inherit; cursor: pointer; }
   .section-sub { white-space: normal; }
   .chapters-grid { grid-template-columns: 1fr; }
   .works-grid { grid-template-columns: 1fr; gap: 38px; }
-  .timeline-item { min-width: 150px; }
+  .timeline { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 20px; }
+  .timeline-item { padding: 16px 10px 14px 0; }
+  .timeline-num { font-size: 30px; }
+  .timeline-title { font-size: 14px; letter-spacing: 0.02em; }
+  .timeline-years, .timeline-count { font-size: 10px; letter-spacing: 0.02em; }
+  .timeline-count { margin-top: 8px; }
   .period-hero { padding-top: 48px; }
   .preface { margin-top: 40px; }
   .preface p { font-size: 16px; line-height: 1.98; }
